@@ -1,0 +1,59 @@
+header {
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--point-text);
+}
+
+header .title a:visited {
+  color: var(--point-text);
+}
+
+header .title {
+  font-family: "Racing Sans One", cursive;
+  font-size: 5rem;
+  text-align: center;
+  margin: auto;
+  color: var(--point-text);
+  padding: 20px 0;
+  background-color: var(--background-color);
+}
+
+#navbar {
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--text-color);
+  background-color: white;
+}
+
+#navbar ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding-left: 0;
+  padding: 6px 0;
+}
+
+#navbar ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+#navbar ul li:hover {
+  text-decoration: underline;
+  background-color: var(--point-color);
+}
